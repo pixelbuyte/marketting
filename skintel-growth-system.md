@@ -544,6 +544,42 @@ Covered in §13 — ranked: **A. Shelf Audit** (build first) · B. Fungal-acne s
 
 ---
 
+---
+
+## 23. Decision record: AI actors, hiring, and multi-platform
+
+Three questions came up after the plan was written. Recording the answers so they don't get relitigated.
+
+### Do not use AI-actor UGC tools (Arcads and similar) — decided, not a budget call
+
+**1. It's a paid-ads tool.** Arcads is built for paid ads; reviewers recommend it for advertisers already spending **$500+/month**. Entry pricing is ~$110/month for 10 videos. For organic short-form, cheaper editors give more variety per dollar. Our budget is $0, so this would be the entire budget buying the wrong category of asset.
+
+**2. Synthetic testimonials are disqualifying in this category.** An AI-generated person saying "this found what was breaking me out" is a fabricated endorsement for a health-adjacent product — an FTC endorsement problem, and directly corrosive to our only real wedge. Our positioning is *"other apps give generic, fear-based ratings; we correlate honestly against your own data."* That argument cannot be delivered by a synthetic person who never used the product. One commenter spotting it takes the positioning down with it.
+
+**3. Platform enforcement removes the option of hiding it.** TikTok's 2026 policy detects synthetic media via C2PA Content Credentials, invisible watermarking, and computer-vision classifiers rather than self-disclosure. Penalties ladder warning → 7-day posting restriction → 30-day suspension → permanent ban. A "reduce AI content" control in Manage Topics also lets users opt out of AI content entirely, so part of the target audience never sees it.
+
+**The deciding fact: the product doesn't need a person on screen.** Skintel's winning shot is an ingredient list and a reveal. An AI actor adds cost, legal exposure and reach risk to a format that has no human in frame to begin with.
+
+**Where AI video is fine:** b-roll, motion graphics, and the existing `marketing/video/` render pipeline. **The line is synthetic humans making product claims.** Don't cross it.
+
+### Hiring sequence — editor before marketer
+
+Hiring someone to find a winning format before one exists is paying for guesses.
+
+| Stage | Hire | Rate |
+|---|---|---|
+| Now ($0, no proven format) | **Nobody.** Founder posts screen recordings — nothing personal appears in them | $0 |
+| Once one format performs | **Clipper/editor** — turns 1 recording into 5 posts. Volume is the bottleneck, not ideas | ~$5–15/hr |
+| Once there's budget for faces | **Real UGC creators** with proper `#ad` disclosure — legal, credible, and no synthetic-testimonial exposure | $50–150/video |
+
+**Hard exception: never outsource Reddit.** It's the highest-intent channel and communities detect astroturfing quickly; a ban is permanent. Reddit requires a genuine account with real ingredient knowledge — which requires nothing of the founder's face or voice.
+
+### Multi-platform is redistribution, not three strategies
+
+One screen recording → TikTok + YouTube Shorts + Instagram Reels, uploaded natively to each. That is free and takes minutes. Running three *different* content strategies at zero audience spreads effort thin and slows down format discovery. **One asset, three surfaces, one format under test at a time.**
+
+---
+
 ## Sources
 
 - [Skintel — Personal skin intelligence (skintel.app, name-collision competitor)](https://www.skintel.app/)
@@ -555,3 +591,8 @@ Covered in §13 — ranked: **A. Shelf Audit** (build first) · B. Fungal-acne s
 - [How to Grow TikTok Without Showing Your Face in 2026 — Kineclip](https://kineclip.com/blog/grow-tiktok-without-showing-face/)
 - [Top 20 Faceless TikTok Ideas That Actually Go Viral (2026) — InReels](https://www.inreels.ai/blog/faceless-tiktok-ideas)
 - [TikTok for Creators: Complete Growth & Earning Guide (2026) — Flowshorts](https://flowshorts.app/blog/tiktok-guide)
+- [Arcads AI pricing in 2026: plans, credits, and the real cost — eesel AI](https://www.eesel.ai/blog/arcads-ai-pricing)
+- [Arcads Review: Who Should Use It for AI UGC Ads in 2026 — MaxAEO](https://maxaeo.ai/blog/arcads-review/)
+- [TikTok's AI-Generated Content Policy in 2026: Labels, Ads, and What Gets Removed — Cinerads](https://www.cinerads.com/blog/tiktok-ai-content-policy)
+- [TikTok AI Content Policy 2026: 4-Tier Labels & Penalties — AuditSocials](https://www.auditsocials.com/blog/tiktok-ai-content-disclosure-rules-2026)
+- [AI Content Disclosure Rules 2026 (TikTok, IG, YouTube) — SocialScale Hub](https://www.socialscalehub.com/academy/ai-content-disclosure-rules-2026-tiktok-instagram-youtube)

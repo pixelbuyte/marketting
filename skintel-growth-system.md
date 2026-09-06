@@ -91,7 +91,7 @@ That distinction is:
 This phase is won by **interception, not creation.** You are not trying to be discovered. You are trying to show up where someone is already typing your problem into a search bar.
 
 **Days 1–3 — build the trap before driving traffic.**
-- Ship the free public tool (§13, option A). No signup to use it. Result gated *after* value is delivered.
+- ~~Ship the free public tool (§13, option A)~~ — **done**, live at `/shelf-audit`. No signup to use it; email gated *after* the result is delivered.
 - Fix the CTA (§7). Put `skinstel.com` in readable text on every video template in `marketing/video/`.
 - Create accounts: TikTok, YouTube, Instagram. Handle: use something searchable, not just the brand — e.g. `skintel.app.official` is taken by a competitor, so go descriptive: **`ingredientculprit`** or **`skinteldotcom`**. Bio line: *"Find the ingredient breaking you out → skinstel.com"*.
 
@@ -246,11 +246,9 @@ With no budget, you cannot buy distribution — but you can trade **access and a
 
 **This is your single most important build.** On $0, a free tool is worth more than any content strategy, because it converts strangers without requiring them to follow you.
 
-**Build this one (option A) — "The Shelf Audit":**
-Paste (or scan) 3+ products → instantly see **the ingredients they share** → the result is inherently shareable and inherently screenshot-able.
-- No account required to see the overlap
-- Email required only to save it, track it over time, or correlate against breakouts
-- **Auto-generate a shareable result card** (branded, with `skinstel.com` readable on it) — every share re-transmits your domain, which partially solves your branded-search problem for free
+**Option A — "The Shelf Audit" — is shipped.** Live at `skinstel.com/shelf-audit` ([`pixelbuyte/Skintel#18`](https://github.com/pixelbuyte/Skintel/pull/18)). Paste 2–6 real ingredient lists → instantly see **the ingredients they share**, computed live, no account required. Email is asked only after the result, pitched as unlocking correlation against your own breakouts. The hero's "Find my culprit — free" CTA now points there instead of the scripted demo, so the free-tier promise is literal.
+
+**Not yet built, real gap:** the auto-generated shareable result card (branded, `skinstel.com` readable on it) — every share would re-transmit the domain, which partially solves the branded-search problem for free. Right now a user can screenshot the page, but there's no purpose-built share asset. Worth building once the tool has any traffic to learn from.
 
 **Four more, in priority order:**
 - **B. Fungal-acne (malassezia) safe checker** — narrow, intensely searched, tiny competitive set, and the community *will* spread it themselves
@@ -320,7 +318,7 @@ The last question routinely produces better copy than anything a marketer writes
 ### Week 1 — Build the trap
 | Day | Do | Metric |
 |---|---|---|
-| 1 | Ship free Shelf Audit tool (no-signup). Rewrite hero + CTA to "Find my culprit ingredient" | Tool live |
+| 1 | ~~Ship free Shelf Audit tool (no-signup). Rewrite hero + CTA to "Find my culprit ingredient"~~ — done | Tool live |
 | 2 | Add `skinstel.com` as readable text to all `marketing/video/` templates. Build shareable result card | Templates updated |
 | 3 | Create TikTok/YT/IG accounts w/ searchable handles + domain in bio. Set up UTMs + analytics | Accounts live |
 | 4 | Produce 10 videos in one batch (screen recordings of real scans) | 10 in bank |
@@ -533,7 +531,7 @@ Change one variable at a time or you'll learn nothing.
 5. **"Tag someone whose routine needs this"** — native to skincare comment culture
 
 ### 5 free-tool ideas
-Covered in §13 — ranked: **A. Shelf Audit** (build first) · B. Fungal-acne safe checker · C. Routine conflict detector · D. Full-routine comedogenic score · E. Dupe finder.
+Covered in §13 — ranked: **A. Shelf Audit — shipped, live at `/shelf-audit`** · B. Fungal-acne safe checker (build next) · C. Routine conflict detector · D. Full-routine comedogenic score · E. Dupe finder.
 
 ### 5 landing page experiments
 1. Hero: problem-first vs. product-first

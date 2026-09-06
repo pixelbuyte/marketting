@@ -574,6 +574,21 @@ Hiring someone to find a winning format before one exists is paying for guesses.
 
 **Hard exception: never outsource Reddit.** It's the highest-intent channel and communities detect astroturfing quickly; a ban is permanent. Reddit requires a genuine account with real ingredient knowledge — which requires nothing of the founder's face or voice.
 
+### Budget is $150/month — and no, not a MacBook Pro
+
+The real constraint hiding in the laptop question: the iOS app is Capacitor and pre-launch, and building/signing/submitting to the App Store requires macOS. The founder's daily machine is Windows. So a Mac genuinely sits in the critical path of shipping what the waitlist promises — but **owning one is not required.**
+
+**Ship iOS for $0:** Codemagic's free tier provides 500 macOS M2 build minutes/month and builds, signs, and publishes Capacitor iOS apps to App Store Connect from the cloud. The `ios:build` script becomes a `codemagic.yaml`. At $150/month, a $1,600–2,500 MacBook Pro is 11–17 months of saving with nothing spent on growth — a decision not to market for a year.
+
+**The one mandatory purchase: Apple Developer Program, $99/year.** Without it there is no App Store listing, and the landing page is currently showing App Store badges for something that cannot ship.
+
+| When | Spend | Condition |
+|---|---|---|
+| Month 1 | $99 Apple Developer Program; bank the remaining $51 | Unblocks iOS. Content is founder-made screen recordings — no spend needed while a format is still being found |
+| Month 2+ | $60–80 clipper/editor · $50–70 one real nano-creator with `#ad` disclosure · ~$20 reserve | **Only once a format shows signal.** If nothing is working yet, spend $0 and bank it |
+
+**When a Mac does earn its cost:** debugging native iOS issues (simulator, Capacitor plugins) through cloud CI is slow — each iteration burns minutes and takes 10–15 minutes round-trip. At that point the answer is a **Mac mini M4 at $599 base (regularly $479–549 on sale)** — three to four months of budget, not fifteen, and fully sufficient for Xcode. The Windows machine stays the daily driver.
+
 ### Multi-platform is redistribution, not three strategies
 
 One screen recording → TikTok + YouTube Shorts + Instagram Reels, uploaded natively to each. That is free and takes minutes. Running three *different* content strategies at zero audience spreads effort thin and slows down format discovery. **One asset, three surfaces, one format under test at a time.**

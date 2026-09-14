@@ -8,8 +8,8 @@ Follow it top to bottom. Don't skip to week 2 because week 1 feels slow — the 
 
 ## Before you post anything: 6 setup steps
 
-### 1. Merge the Shelf Audit PR
-Go to **[github.com/pixelbuyte/Skintel/pull/18](https://github.com/pixelbuyte/Skintel/pull/18)** → click **Merge pull request** → confirm. This is what makes `skinstel.com/shelf-audit` live on production instead of just the preview URL. Nothing else in this doc works until this is merged.
+### 1. ~~Merge the Shelf Audit PR~~ — done
+`skinstel.com/shelf-audit` is live on production (tool in #22, shareable result card in #23). The landing page's founding section now sells instead of telling people to wait (#21). Skip to step 2.
 
 ### 2. Test the live tool yourself
 Go to `skinstel.com/shelf-audit`. Paste the ingredient list from two real products you own (back of the bottle, or copy from the Sephora/Ulta product page). Confirm it shows you the shared ingredients. If something looks wrong, that's the first thing to report back — don't build content around a broken tool.
@@ -164,7 +164,7 @@ Open your spreadsheet. Look at **link clicks per 1,000 views**, not total views.
 
 ## What "done" looks like after 30 days
 
-- [ ] Shelf Audit PR merged, tool live
+- [x] Shelf Audit PR merged, tool live
 - [ ] 3 accounts created, bios set
 - [ ] ~20–30 videos posted across TikTok/Shorts/Reels
 - [ ] "Send me your shelf" series running with at least 5 response videos made

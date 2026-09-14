@@ -246,9 +246,9 @@ With no budget, you cannot buy distribution — but you can trade **access and a
 
 **This is your single most important build.** On $0, a free tool is worth more than any content strategy, because it converts strangers without requiring them to follow you.
 
-**Option A — "The Shelf Audit" — is shipped.** Live at `skinstel.com/shelf-audit` ([`pixelbuyte/Skintel#18`](https://github.com/pixelbuyte/Skintel/pull/18)). Paste 2–6 real ingredient lists → instantly see **the ingredients they share**, computed live, no account required. Email is asked only after the result, pitched as unlocking correlation against your own breakouts. The hero's "Find my culprit — free" CTA now points there instead of the scripted demo, so the free-tier promise is literal.
+**Option A — "The Shelf Audit" — is shipped.** Live at `skinstel.com/shelf-audit` ([`pixelbuyte/Skintel#22`](https://github.com/pixelbuyte/Skintel/pull/22)); the end-of-result pitch leads to the $20 founding offer at `/discount`, with email capture demoted beneath it. Paste 2–6 real ingredient lists → instantly see **the ingredients they share**, computed live, no account required. Email is asked only after the result, pitched as unlocking correlation against your own breakouts. The hero's "Find my culprit — free" CTA now points there instead of the scripted demo, so the free-tier promise is literal.
 
-**Not yet built, real gap:** the auto-generated shareable result card (branded, `skinstel.com` readable on it) — every share would re-transmit the domain, which partially solves the branded-search problem for free. Right now a user can screenshot the page, but there's no purpose-built share asset. Worth building once the tool has any traffic to learn from.
+**Shareable result card — shipped** ([`#23`](https://github.com/pixelbuyte/Skintel/pull/23)). The result view now opens with a screenshot-first card — top shared ingredient, product count, Skintel wordmark, and `skinstel.com/shelf-audit` printed as readable text — plus a "Copy result" button whose text ends in the URL. Every share re-transmits the domain, which is the cheapest durable answer to the name collision.
 
 **Four more, in priority order:**
 - **B. Fungal-acne (malassezia) safe checker** — narrow, intensely searched, tiny competitive set, and the community *will* spread it themselves
